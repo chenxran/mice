@@ -1,2 +1,2 @@
 # mice
-An accelerated version of MICEData for multiple imputation
+This is an accelerated version of MICEData for multiple imputation based on class implemented in [statsmodels](https://www.statsmodels.org/dev/generated/statsmodels.imputation.mice.MICEData.html) with all pandas operations being replaced by numpy operation (pandas are really slow!). The output dataset of this MICEData should be the same as the original one if the random seed are set to be the same.
